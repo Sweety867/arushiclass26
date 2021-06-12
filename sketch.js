@@ -43,7 +43,7 @@ function setup(){
 }
 
 function draw(){
-    background("yellow");
+    background("red");
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
